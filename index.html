@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script type="text/javascript" src="./data.json"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function(event) { 
+                var h1 = document.getElementById('title');
+                h1.innerHTML = item1.header;
+                var p = document.getElementById('paragraph');
+                p.innerHTML = item1.paragraph;
+            });
+        </script>
+    </head>
+    <body>
+        <h1 id='title'></h1>
+        <p id='paragraph'></p>
+    </body>
+</html>
